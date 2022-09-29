@@ -1,0 +1,73 @@
+.select-filter {
+  align-items: center;
+  align-self: start;
+  background-color: #fff;
+  border: solid 1px #2e2e2e;
+  border-radius: 4px;
+  color: #343434;
+  display: flex;
+  font-family: Roboto;
+  font-size: 14px;
+  height: 32px;
+  line-height: 22px;
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+  width: 240px;
+}
+.select-filter::after {
+  position: absolute;
+  top: 50%;
+  transform: translate(-123%, -50%);
+  right: 5px;
+}
+.select-filter-icon {
+  position: absolute;
+  right: 12px;
+}
+.select-filter:hover {
+  overflow: visible;
+}
+.select-filter .select-filter-options {
+  display: none;
+}
+.select-filter:hover .select-filter-options {
+  background: #fff;
+  box-shadow: 0 2px 2px 0 #dad8d8;
+  display: block;
+  height: 139px;
+  left: -1px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 34px;
+  width: 100%;
+  z-index: 1;
+}
+.option {
+  overflow: hidden;
+}
+.option:hover {
+  background: rgb(149 149 149 / 26%);
+}
+.select-filter:hover .select-filter-options .option,
+.select-filter > span {
+  align-items: center;
+  display: flex;
+  height: 46px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+.option img,
+.select-filter > span > img {
+  margin-right: 13px;
+  vertical-align: middle;
+}
+.select-filter:hover .select-filter-options .option-selected {
+  background: #60606026;
+}
+@media only screen and (max-width: 592px) {
+  .select-filter {
+    margin: 0 5%;
+  }
+}

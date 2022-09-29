@@ -1,0 +1,15 @@
+.button {
+  background: #fcfcfc;
+  border: solid 1px #d6d6d6;
+  border-radius: 2px;
+  color: #606060;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  height: 31px;
+  width: 98px;
+}
+.button-active {
+  border: solid 1px #1797ff;
+  color: #1797ff;
+}
