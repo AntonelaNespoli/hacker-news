@@ -13,7 +13,7 @@ const NewsService = {
         res.data.hits.forEach((item: any) => {
           let newItem: News = {
             author: item.author,
-            date: item.created_at,
+            date: new Date(item.created_at),
             id: item.objectID,
             isFav: false,
             url: item.story_url,
