@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+This project uses the [Hacker News API](https://hn.algolia.com/api), it shows the results by category and page.
+It allows you to mark the results as favorites, so that you can later see only the favorites.
+
+![Texto alternativo](src/assets/Hacker-News.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
